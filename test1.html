@@ -3,6 +3,52 @@
     <meta charset="utf-8" lang="eng"/>
     <head>
         <title>Welcome to Web Development Starter Course!</title>
+        <!--no dot included, it's for tag-->
+        <!--if dot included, it's for class-->
+        <!--if # included, it's for id-->
+        <!--div > p means any child p tag under div tag-->
+        <style>
+            
+            h1, h3 {
+                text-align: center;
+                width: 600px;
+                font-size: 30px;
+                color: blueviolet;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: aqua;
+            }
+            
+            p {
+                font-size: 20px;
+                color: brown;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .carlist {
+                color: #008780;
+            }
+
+            #footer1 {
+                font-style: italic;
+            }
+            
+            div > p {
+                font-weight: bolder;
+                font-style: italic;
+                color: blue;
+            }
+
+            p.test {
+                color: green;
+                font-size: 30px;
+            }
+
+            ol li {
+                color: purple;
+                background-color: gray;
+                width: fit-content;
+            }
+        </style>
     </head>
     <body>
         <!--Lecture-->
@@ -22,14 +68,14 @@
         <br/>
         <!--Formatting HTML before CSS lecture-->
         <p>This is <i>italic</i> in the heading.</p>
-        <p>This is <u>underlined</u>in the paragraph.</p>
+        <p class="test">This is <u>underlined</u> in the paragraph.</p>
         <p align="left">This is left aligned.</p>
         <p align="center">This is center aligned.</p>
         <p align="right">This is right aligned.</p>
 
         <!--Unordered List-->
         This is the top market shared car in Myanmar:
-        <ul>
+        <ul class="carlist">
             <li>Fit</li>
             <li>Vitz</li>
             <li>Belta</li>
@@ -63,13 +109,16 @@
         <p id="para1" style="font-family: Arial; color:brown;">Early biologists viewed their work as a study of the organism.</p>
 
         <!--HTML semantic elements-->
-        <div>When x is less than y, we use x &lt; y. <br>
+        <div>
+            <p>
+                When x is less than y, we use x &lt; y. <br>
             When x is greater than y, we use x &gt; y. <br>
             When x and y are bitwise and, we say x&nbsp;&amp;&nbsp;y<br>
-            &quot; Step Out Hello! We are Stray Kids &quot;</div>
-    
+            &quot;Step Out Hello! We are Stray Kids&quot;
+            </p>
+            </div>
     <hr>
     </body>
 
-    <footer>Stray Kids Official 032518</footer>
+    <footer id="footer1">Stray Kids Official 032518</footer>
 </html>

@@ -5,6 +5,55 @@
         <title>School</title>
         <a href="./school.html"><img src="./Capture.PNG" alt="logo" id="top"></a>
         <h1>T-TechNet</h1>
+
+        <style>
+            h1, img{
+                position: relative;
+                text-align: center;
+                color: rgb(12, 12, 150);
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+
+            h2 {
+                color: blue;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .subj {
+                font-style: italic;
+            }
+
+            #eng, #maths, #phys{
+                border-style: dotted;
+                border-color: rgba(0, 0, 0, 0.842);
+                background-color: rgb(170, 233, 170);
+                position: relative;
+                left: 50px;
+                margin-right: 150px;
+            }
+
+            div > p {
+                font-size: 20px;
+                color: brown;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+            h4 {
+                text-align: center;
+                font-style: italic;
+                background-color: green;
+                color: white;
+                width: auto;
+            }
+
+            img {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+        </style>
    </head>
    <hr>
    <body>
@@ -14,8 +63,8 @@
     </p>
     <div>
         <h3 id="menu">Subjects</h3>
-        <ul>
-            <li><a href="#eng">English</a> </li>
+        <ul class="subj">
+            <li><a href="#eng">English</a></li>
             <li><a href="#maths">Maths</a></li>
             <li><a href="#phys">Physics</a></li>
         </ul>
@@ -27,9 +76,9 @@
             English studies (usually called simply English) is an academic discipline taught in primary, secondary, and post-secondary education in English-speaking countries.
         </p>
         <img height="300px" width="500px" src="./eng.png" alt="English">
-        <p><a href="#menu">Back to menu</a></p>
+        <p>Click here <a href="#menu">Back to menu</a></p>
     </div>
-
+    <br>
     <div id="maths">
         <h4>Mathematics</h4>
         <p>
@@ -38,7 +87,7 @@
         <img height="300px" width="500px" src="./maths.png" alt="Mathematics">
         <p><a href="#menu">Back to menu</a></p>
     </div>
-
+    <br>
     <div id="phys">
         <h4>Physics</h4>
         <p>
