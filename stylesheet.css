@@ -1,0 +1,112 @@
+<style>
+
+    .row {
+        display: flex;
+        background-image: solid rgb(8, 8, 92);
+    }
+
+    .column {
+        margin-top: 10px;
+        padding: 10px;
+        float: right;
+        width: auto;
+    }
+
+    .topbar {
+        font-weight: bolder;
+        padding: 20px;
+        margin-top: 50px;
+        border: solid 1px;
+        border-radius: 5px;
+        background: linear-gradient(rgb(252, 147, 164), rgb(156, 245, 245), rgb(102, 102, 228));
+        overflow: auto;
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: rgba(10, 10, 148, 0.74);
+        margin-top: 0;
+    }
+
+    h2#about, h3#menu {
+        font-size: 20px;
+        background-color: rgb(56, 56, 141);
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        width: max-content;
+    }
+
+    p.about {
+        text-indent: 1in;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    a:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: purple;
+        text-decoration: none;
+    }
+
+    #eng, #maths, #phys{
+        border-color: rgba(0, 0, 0, 0.842);
+        background-color: rgb(255, 210, 222);
+        position: relative;
+        left: 50px;
+        margin-right: 150px;
+        margin-top: 20px;
+    }
+
+    h4 {
+        text-align: center;
+        background-color: rgb(11, 42, 104);
+        color: white;
+        width: auto;
+    }
+
+    p.eng, p.maths, p.phys {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+
+    }
+
+    p.menu > a {
+        color: white;
+        background-color: rgb(58, 9, 9);
+        width: fit-content;
+    }
+
+    p.arrow{
+        text-align: center;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: solid rgb(133, 9, 9) 2px;
+        border-radius: 5px;
+    }
+
+    h3 {
+        text-align: right;
+    }
+    
+    .bottom {
+        text-align: right;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+</style>
